@@ -1,0 +1,1063 @@
+{
+  "routes": {
+    "login": "Login",
+    "passwordRecoveryRequest": "Password Recovery Request",
+    "passwordRecoveryVerification": "Password Recovery Verification",
+    "invitationVerification": "Invitation Verification",
+    "dashboard": "Home",
+    "sites": "Sites",
+    "users": "Users",
+    "userDetails": "User Details",
+    "devices": "Devices",
+    "deviceDetails": "Device Details",
+    "accessKeys": "Access Keys",
+    "accessLevels": "Access Levels",
+    "settings": "Settings",
+    "roles": "Roles",
+    "administrators": "Administrators"
+  },
+  "page": {
+    "dashboard": {
+      "title": "Home",
+      "header": "Welcome, {{name}}!",
+      "visitsStatistics": "Visits Statistics",
+      "lastActions": "Last Actions",
+      "devices": "Devices",
+      "filters": {
+        "today": "Today",
+        "thisWeek": "This week",
+        "thisMonth": "This month",
+        "wholeYear": "Whole year"
+      }
+    },
+    "sites": {
+      "title": "Choose the Site you Want to Work with",
+      "subtitle": "You can change the site at any time in the left upper corner.",
+      "newSiteButton": "Add Site",
+      "newSiteTitle": "Add site",
+      "siteDetailsTitle": "Site details",
+      "siteDetailsButton": "Details",
+      "siteSelectButton": "Select",
+      "filters": {
+        "allSites": "All sites",
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "site": {
+      "title": "Site"
+    },
+    "users": {
+      "title": "Users",
+      "accessKeys": "Access Keys",
+      "lastActions": "Last Actions",
+      "addKey": "Add Key",
+      "validTo": "Valid To",
+      "generateAccessKey": "Generate Access Key"
+    },
+    "devices": {
+      "title": "Access Devices",
+      "newDevice": "Create Device",
+      "filters": {
+        "allDevices": "All Devices",
+        "visitorPanels": "Visitor Panels",
+        "doors": "Doors"
+      }
+    },
+    "accessKeys": {
+      "title": "Access Keys",
+      "accessKeyDetailsTitle": "Access Key details",
+      "createAccessKey": "Create New Key",
+      "savedKeys": "Saved Keys",
+      "attachKey": "Do you want to attach key to user immediately?",
+      "saveKey": "Save Key",
+      "attachKeyOption": {
+        "later": "Later",
+        "attachNow": "Attach Now"
+      },
+      "filters": {
+        "allKeys": "All Keys",
+        "active": "Active Keys",
+        "inactive": "Inactive Keys"
+      }
+    },
+    "accessLevels": {
+      "title": "Access Levels",
+      "savedAccessLevels": "Saved Access Levels",
+      "newAccessLevel": "New Access Level",
+      "description": "<0>{{devices}} {{deviceText}}</0> attached to current access level have access for <11>{{users}} {{userText}}</11> between <14>07:00</14> and <16>16:00</16> on <16>Tuesday</16> and <16>Friday</16> except for <16>23/12/2023 - 02/01/2024</16>. You can see more information about exceptions in the <16>Exceptions</16> tab.",
+      "timeSchedule": {
+        "applyEveryDay": "Apply Every Day",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "selectedTime": "From <2>{{from}}</2> To <6>{{to}}</6>",
+        "selectedTimeOnDay": "From <2>{{from}}</2> To <6>{{to}}</6> On <10>{{on}}</10>"
+      }
+    },
+    "settings": {
+      "title": "Settings"
+    },
+    "roles": {
+      "title": "Roles",
+      "savedRoles": "Saved Roles",
+      "newRole": "New Role",
+      "roleNamePlaceholder": "Role Name",
+      "description": "<0>{{roleName}}</0> role has <2>{{rolePermissionNames}}</2> permissions. Depending on configured permissions with this role will be able to perform certain type of actions.",
+      "permissions": "Permissions",
+      "permissionsDescription": "With permissions it is possible to give user ability to execute specific actions or grant access specific sources. Once configured permissions can be changed/removed any time through this section.",
+      "permissionOptions": {
+        "viewOnly": "View Only",
+        "manage": "Manage",
+        "noAccess": "No Access"
+      }
+    },
+    "administrators": {
+      "title": "Administrators",
+      "inviteAdmin": "Invite Admin",
+      "rolesInfo": {
+        "title": "Roles Info",
+        "description": "Roles alow user to perform specific operations in the Touchcom platform. Roles are managed by Super Admin and it is possible to attach certain permissions to grant access to specific operations.",
+        "linkText": "You can manage roles on the ",
+        "superAdmin": {
+          "title": "Super Admin",
+          "description": "Users with <1>Super admin</1> role attached can perform every action in the Touchcom platform including listing and modifying the data. Super Admins also have access to all sites and data."
+        },
+        "siteAdmin": {
+          "title": "Site Admin",
+          "description": "<0>Site admin</0> role enable site administrators to manage their site which includes devices and users management at specific site. Site admin can decide how his site will be formed."
+        },
+        "standardUser": {
+          "title": "Standard User",
+          "description": "<0>Standard User</0> role grants basic user permissions to open doors and login through mobile app. Users with this permission don't have access to Admin Web."
+        },
+        "installer": {
+          "title": "Device Setup",
+          "description": "Users with <1>Device Setup</1> role have possibility to access device through login and setup it for production use."
+        }
+      }
+    }
+  },
+  "layouts": {
+    "auth": {
+      "privacyPolicy": "Privacy Policy"
+    }
+  },
+  "navigation": {
+    "items": {
+      "dashboard": "Home",
+      "siteManagement": {
+        "title": "Site Management",
+        "subItems": {
+          "accessDevices": "Access Devices",
+          "users": "Users"
+        }
+      },
+      "accessControl": {
+        "title": "Access Control",
+        "subItems": {
+          "accessKeys": "Access Keys",
+          "accessLevels": "Access Levels",
+          "events": "Events"
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "subItems": {
+          "administrators": "Administrators",
+          "roles": "Roles"
+        }
+      }
+    }
+  },
+  "userMenu": {
+    "profileSettings": {
+      "title": "Profile settings",
+      "changePassword": "Change Password"
+    },
+    "changeLanguage": {
+      "title": "Change language",
+      "selectLanguageMenu": {
+        "title": "Select language"
+      }
+    },
+    "signOut": {
+      "title": "Log out"
+    }
+  },
+  "siteMenu": {
+    "viewAll": {
+      "title": "View all sites"
+    },
+    "siteDetails": {
+      "title": "Site details"
+    },
+    "addSite": {
+      "title": "Add site"
+    }
+  },
+  "forms": {
+    "validation": {
+      "invalidValue": "Invalid value",
+      "noOptions": "No options"
+    },
+    "placeholders": {
+      "promptValue": "Enter value",
+      "promptSelectValue": "Select an option"
+    },
+    "login": {
+      "data": {
+        "title": "Welcome back!",
+        "label": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "placeholder": {
+          "email": "Enter your email",
+          "password": "Enter your password"
+        },
+        "submitButton": "Log In",
+        "forgotPassword": "Forgot your password?"
+      },
+      "validation": {
+        "email": "Email is not valid",
+        "required": {
+          "email": "Email is required",
+          "password": "Password is required"
+        },
+        "min": {
+          "password": "Password is too short (min. {{min}})"
+        },
+        "max": {
+          "password": "Password is too long (max. {{max}})"
+        }
+      }
+    },
+    "passwordRecovery": {
+      "alreadyHaveAccount": "Already have an account?",
+      "signInLink": "Sign in",
+      "request": {
+        "data": {
+          "title": "Recover Password",
+          "subtitle": "Enter the email address connected to your account",
+          "label": {
+            "email": "Email"
+          },
+          "placeholder": {
+            "email": "Enter your email"
+          },
+          "submitButton": "Recover password"
+        },
+        "validation": {
+          "email": "Email is not valid",
+          "required": {
+            "email": "Email is required"
+          }
+        }
+      },
+      "verification": {
+        "data": {
+          "title": "Password Recovery Verification",
+          "label": {
+            "passwordResetToken": "Token",
+            "password": "Password"
+          },
+          "placeholder": {
+            "passwordResetToken": "Enter password reset token",
+            "password": "Enter your password"
+          },
+          "submitButton": "Recover password"
+        },
+        "validation": {
+          "required": {
+            "passwordResetToken": "Password reset token is required",
+            "password": "Password is required"
+          },
+          "min": {
+            "password": "Password is too short (min. {{min}})"
+          },
+          "max": {
+            "password": "Password is too long (max. {{max}})"
+          }
+        }
+      }
+    },
+    "invitation": {
+      "alreadyHaveAccount": "Already have an account?",
+      "signInLink": "Sign in",
+      "verification": {
+        "data": {
+          "title": "Invitation Verification",
+          "label": {
+            "invitationToken": "Token",
+            "password": "Password"
+          },
+          "placeholder": {
+            "invitationToken": "Enter invitation token",
+            "password": "Enter your password"
+          },
+          "submitButton": "Accept invitation"
+        },
+        "validation": {
+          "required": {
+            "invitationToken": "Invitation token is required",
+            "password": "Password is required"
+          },
+          "min": {
+            "password": "Password is too short (min. {{min}})"
+          },
+          "max": {
+            "password": "Password is too long (max. {{max}})"
+          }
+        }
+      }
+    },
+    "device": {
+      "data": {
+        "label": {
+          "name": "Name",
+          "deviceType": "Type of device",
+          "version": "Panel version",
+          "street": "Street",
+          "number": "Number",
+          "serialNumber": "Serial number",
+          "floor": "Floor",
+          "site": "Site",
+          "status": "Status",
+          "email": "Email",
+          "currentPassword": "Current password",
+          "password": "Password",
+          "confirmPassword": "Confirm Password",
+          "connectedPerson": "Connected Person"
+        },
+        "placeholder": {
+          "name": "Enter device name",
+          "version": "Enter version",
+          "street": "Add street",
+          "number": "Enter street number",
+          "floor": "Choose floor number",
+          "site": "Select site",
+          "email": "Email address",
+          "currentPassword": "Current password",
+          "password": "Password",
+          "confirmPassword": "Confirm Password"
+        },
+        "configuration": {
+          "title": "Panel configuration",
+          "label": {
+            "heartbeatInterval": "Heartbeat interval",
+            "mainScreenDelay": "Main screen delay",
+            "waitBranchLevel": "Wait branch level",
+            "activeBranchLevel": "Active branch level",
+            "lockStatus": "Lock status",
+            "volumeLevel": "Volume level",
+            "isHorizontal": "Horizontal display",
+            "deviceRotation": "Device rotation",
+            "cameraRotation": "Camera rotation",
+            "scaling": "Scaling",
+            "closeDoorTime": "Close door time",
+            "callTimeout": "Call timeout",
+            "height": "Height",
+            "width": "Width",
+            "aspectRatioX": "X aspect ration",
+            "aspectRatioY": "Y aspect ration",
+            "adbPort": "ADB port",
+            "isDarkTheme": "Dark theme",
+            "darkThemeStart": "Dark theme starts at",
+            "darkThemeEnd": "Dark theme ends at",
+            "panelType": "Type of panel"
+          },
+          "placeholder": {
+            "heartbeatInterval": "Choose heartbeat interval",
+            "mainScreenDelay": "Choose main screen delay",
+            "waitBranchLevel": "Choose wait branch level",
+            "activeBranchLevel": "Choose active branch level",
+            "volumeLevel": "Choose volume level",
+            "panelType": "Choose of type of panel",
+            "deviceRotation": "Choose device rotation",
+            "cameraRotation": "Choose camera rotation",
+            "height": "Enter height",
+            "width": "Enter width"
+          }
+        },
+        "credentials": {
+          "title": "Credentials",
+          "label": {
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": ""
+          },
+          "placeholder": {
+            "email": "Enter email",
+            "password": "Enter password"
+          }
+        },
+        "deviceAccess": {
+          "title": "Change password"
+        },
+        "submitButton": "Create",
+        "saveButton": "Save"
+      },
+      "validation": {
+        "email": "Email is not valid",
+        "required": {
+          "name": "Name is required",
+          "version": "Version is required",
+          "street": "Street is required",
+          "number": "Street number is required",
+          "floor": "Floor is required",
+          "email": "Email is required",
+          "currentPassword": "Current password is required",
+          "password": "Password is required",
+          "confirmPassword": "Confirm password is required",
+          "lockStatus": "Lock status is required",
+          "panelType": "Panel type is required",
+          "deviceRotation": "Device rotation is required",
+          "cameraRotation": "Camera rotation is required",
+          "heartbeatInterval": "Heartbeat interval is required",
+          "mainScreenDelay": "Main screen delay is required",
+          "waitBranchLevel": "Wait branch level is required",
+          "activeBranchLevel": "Active branch level is required"
+        },
+        "match": {
+          "confirmPassword": "Passwords must match"
+        },
+        "min": {
+          "name": "Name is too short (min. {{min}})"
+        },
+        "max": {
+          "name": "Name is too long (max. {{max}})"
+        }
+      }
+    },
+    "site": {
+      "data": {
+        "title": "Site",
+        "label": {
+          "name": "Name",
+          "description": "Description",
+          "country": "Country",
+          "city": "City",
+          "postalCode": "Postal Code",
+          "street": "Street",
+          "number": "Number",
+          "floor": "Number of floors",
+          "status": "Status"
+        },
+        "placeholder": {
+          "name": "Enter site name",
+          "description": "Add site description",
+          "country": "Choose a country",
+          "city": "Enter city name",
+          "postalCode": "Enter postal code",
+          "street": "Enter street",
+          "number": "Enter street number",
+          "floor": "Enter number of floors"
+        },
+        "notFound": {
+          "country": "Country not found"
+        },
+        "noOptions": "Empty list"
+      },
+      "validation": {
+        "required": {
+          "name": "Name is required",
+          "country": "Country is required",
+          "city": "City is required",
+          "postalCode": "Postal Code is required",
+          "street": "Street is required",
+          "number": "Street number is required",
+          "floor": "Number of floors is required"
+        }
+      }
+    },
+    "user": {
+      "data": {
+        "label": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "email": "Email",
+          "phone": "Phone",
+          "address": "Address",
+          "role": "Role",
+          "imageUrl": "Image",
+          "apartment": "Apartment",
+          "company": "Company",
+          "status": "Status",
+          "name": "Name",
+          "type": "User type",
+          "userType": "Choose the type of user",
+          "number": "Number",
+          "floor": "Floor",
+          "companyLogo": "Company Logo",
+          "password": "Password",
+          "confirmPassword": "Confirm Password",
+          "accessLevel": "Access Level",
+          "accessKey": {
+            "name": "Access Key Name",
+            "type": "Key Type",
+            "status": "Status",
+            "number": "Key Number",
+            "id": "Key ID",
+            "validFrom": "Valid From",
+            "validTo": "Valid To",
+            "pin": "Setup PIN Code",
+            "pinEntryTime": "PIN code Entry Time"
+          }
+        },
+        "placeholder": {
+          "firstName": "Enter first name",
+          "lastName": "Enter last name",
+          "address": "Enter address",
+          "email": "Enter email",
+          "password": "Enter password",
+          "confirmPassword": "Enter same password again",
+          "verificationCode": "Enter verification code",
+          "verificationCodeExpiration": "Enter  verification code expiration",
+          "otpRequestCooldownExpiration": "Enter cooldown expiration",
+          "phone": "Enter phone",
+          "status": "Choose status",
+          "role": "Choose role",
+          "imageUrl": "Choose image",
+          "name": "Enter name",
+          "number": "Enter number",
+          "floor": "Enter floor",
+          "companyLogo": "Choose company logo",
+          "accessLevel": "Choose access level",
+          "accessKey": {
+            "name": "Enter access key name",
+            "status": "Status",
+            "number": "Enter key number",
+            "id": "Enter key ID",
+            "validFrom": "Enter valid from date",
+            "validTo": "Enter valid to date",
+            "pin": "Enter PIN Code"
+          }
+        },
+        "validation": {
+          "email": "Email is not valid",
+          "phone": "Phone is not valid",
+          "required": {
+            "name": "Name is required",
+            "firstName": "First name is required",
+            "lastName": "Last name is required",
+            "number": "Number is required",
+            "floor": "Floor is required",
+            "email": "Email is required",
+            "phone": "Phone is required",
+            "accessKey": {
+              "id": "Key ID is required",
+              "name": "Key name is required",
+              "pin": "PIN code is required",
+              "number": "Key number is required"
+            }
+          },
+          "min": {
+            "phone": "Phone number is too short (min. {{min}})"
+          },
+          "max": {
+            "phone": "Phone number is too long (max. {{max}})"
+          },
+          "matches": {
+            "phone": "Invalid phone number format. It should start with a 3-digit country code and contain only numbers. Plus sign can be used only at beginning."
+          }
+        }
+      }
+    },
+    "accessKey": {
+      "data": {
+        "label": {
+          "name": "Access Key Name",
+          "tag": "Key ID",
+          "number": "Key Number",
+          "keyType": "Type of Key",
+          "status": "Status",
+          "belongsTo": "Belongs To",
+          "connectedDevice": "Connected Device",
+          "valid": "Valid",
+          "pin": "PIN Code",
+          "pinEntryTime": "PIN code Entry Time"
+        },
+        "placeholder": {
+          "name": "Enter access key name",
+          "tag": "Enter key ID",
+          "number": "Enter access key number"
+        },
+        "validation": {
+          "required": {
+            "name": "Key name is required",
+            "tag": "Key ID is required",
+            "number": "Key number is required"
+          }
+        }
+      }
+    },
+    "accessLevel": {
+      "data": {
+        "placeholders": {
+          "name": "Enter access level name"
+        }
+      }
+    },
+    "exception": {
+      "data": {
+        "label": {
+          "name": "Name",
+          "status": "Lock Status for Access Group",
+          "periodOneDay": "One day",
+          "period": "Period",
+          "timeWholeDay": "Whole day",
+          "timeInterval": "Time Interval",
+          "saveForNextYear": "Save for the next year"
+        },
+        "placeholder": {
+          "name": "Enter exception name",
+          "periodStart": "From",
+          "periodEnd": "To",
+          "timeIntervalStart": "From",
+          "timeIntervalEnd": "To"
+        }
+      },
+      "validation": {
+        "required": {
+          "name": "Exception name is required"
+        }
+      }
+    },
+    "timeSchedule": {
+      "validation": {
+        "required": {
+          "timeFrom": "Field is required",
+          "timeTo": "Field is required"
+        },
+        "moreThan": {
+          "timeTo": "Must be bigger than time from"
+        }
+      }
+    },
+    "administrators": {
+      "adminInvite": {
+        "data": {
+          "label": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "role": "Role",
+            "info": "Here you can choose only between 'Site Admin' and 'Super Admin' roles."
+          },
+          "placeholders": {
+            "firstName": "Enter user first name",
+            "lastName": "Enter user last name",
+            "email": "Enter user email",
+            "role": "Choose a role"
+          }
+        },
+        "validation": {
+          "required": {
+            "firstName": "First name is required",
+            "lastName": "Last name is required",
+            "email": "Email is required",
+            "role": "Role is required"
+          }
+        }
+      }
+    },
+    "roles": {
+      "data": {
+        "placeholders": {
+          "name": "Enter role name"
+        }
+      }
+    }
+  },
+  "tables": {
+    "accessDevices": {
+      "cells": {
+        "name": "Name",
+        "deviceType": "Type of Device",
+        "address": "Address",
+        "lockStatus": "Lock Status",
+        "status": "Status",
+        "connectedUsers": "Connected Users",
+        "version": "Version",
+        "createdAt": "Created At"
+      }
+    },
+    "accessKeys": {
+      "cells": {
+        "name": "Access Key Name",
+        "belongsTo": "Belongs To",
+        "status": "Status"
+      }
+    },
+    "accessLevelExceptions": {
+      "cells": {
+        "name": "Access Key Name",
+        "status": "Status",
+        "date": "Date"
+      }
+    },
+    "connectedUsers": {
+      "cells": {
+        "user": "User",
+        "accessLevel": "Access Level",
+        "status": "Status",
+        "visible": "Visible"
+      }
+    },
+    "connectedDevices": {
+      "cells": {
+        "name": "Name",
+        "deviceType": "Type of Device",
+        "address": "Address",
+        "lockStatus": "Lock Status",
+        "status": "Status",
+        "isUserVisible": "User is Visible"
+      }
+    },
+    "users": {
+      "cells": {
+        "name": "Name",
+        "role": "Role",
+        "status": "Status",
+        "apartment": "Apartment",
+        "company": "Company",
+        "floor": "Floor",
+        "accessKeys": "Access Keys",
+        "phone": "Phone",
+        "email": "Email",
+        "devices": "Devices",
+        "accessLevels": "Access Levels"
+      }
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page:",
+      "pageInfo": "Showing <1>{{count}}</1> of <4>{{limit}}</4> results"
+    }
+  },
+  "dialogs": {
+    "devices": {
+      "reject": {
+        "confirmationTitle": "Reject device",
+        "confirmationText": "Do you really want to reject device registration?"
+      },
+      "approve": {
+        "confirmationTitle": "Approve device",
+        "confirmationText": "Do you really want to approve device registration?"
+      },
+      "activate": {
+        "confirmationTitle": "Activate device",
+        "confirmationText": "Do you really want to activate this device?"
+      },
+      "reboot": {
+        "confirmationTitle": "Reboot device",
+        "confirmationText": "Do you really want to reboot this device?"
+      },
+      "delete": {
+        "confirmationTitle": "Delete device",
+        "confirmationText": "Do you really want to delete this device?"
+      }
+    },
+    "sites": {
+      "delete": {
+        "confirmationTitle": "Delete site",
+        "confirmationText": "Do you really want to delete this site?",
+        "deleteButton": "Delete Site"
+      }
+    },
+    "accessKeys": {
+      "pinCodeEntryTime": {
+        "title": "Pin Code Entry Time"
+      },
+      "delete": {
+        "confirmationTitle": "Delete access key",
+        "confirmationText": "Do you really want to delete this access key?"
+      }
+    },
+    "accessLevels": {
+      "attachDevice": {
+        "title": "Attach Device"
+      },
+      "attachUser": {
+        "title": "Attach User"
+      },
+      "newException": {
+        "title": "Add Exception"
+      },
+      "exceptionDetails": {
+        "title": "Exception Details"
+      },
+      "delete": {
+        "confirmationTitle": "Delete access level",
+        "confirmationText": "Do you really want to delete this access level?"
+      },
+      "deleteException": {
+        "confirmationTitle": "Delete access level exception",
+        "confirmationText": "Do you really want to delete this access level exception?"
+      }
+    },
+    "roles": {
+      "delete": {
+        "confirmationTitle": "Delete role",
+        "confirmationText": "Do you really want to delete this role?"
+      }
+    },
+    "administrators": {
+      "delete": {
+        "confirmationTitle": "Delete admin",
+        "confirmationText": "Do you really want to delete this admin?"
+      }
+    },
+    "users": {
+      "attachAccessKey": {
+        "title": "Attach Access Key"
+      },
+      "delete": {
+        "confirmationTitle": "Delete user",
+        "confirmationText": "Do you really want to delete this user?"
+      }
+    }
+  },
+  "wizard": {
+    "previous": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "users": {
+      "title": "New user",
+      "general": {
+        "title": "General information"
+      },
+      "type": {
+        "title": "Type"
+      },
+      "accessControl": {
+        "title": "Access Control",
+        "subtitle": "Attach user a specific access level and setup access key which will be used to access entrances by filling out the form below."
+      },
+      "credentials": {
+        "title": "Credentials",
+        "subtitle": "Setup password which will be used to get authenticated on the panel. This step can be skipped if user should not have access to the panel."
+      },
+      "review": {
+        "stepTitle": "Review",
+        "title": "Review entered information"
+      }
+    },
+    "devices": {
+      "title": "New device",
+      "general": {
+        "title": "General information"
+      },
+      "configuration": {
+        "title": "Configuration"
+      },
+      "credentials": {
+        "title": "Device access",
+        "subtitle": "Setup password which will be used to get authenticated on the panel"
+      },
+      "review": {
+        "title": "Review entered information"
+      }
+    }
+  },
+  "tabs": {
+    "devices": {
+      "configuration": "Configuration",
+      "connectedUsers": "Connected Users",
+      "deviceAccess": "Device Access",
+      "events": "Events"
+    },
+    "users": {
+      "allUsers": "All Users",
+      "apartments": "Apartments",
+      "companies": "Companies",
+      "connectedDevices": "Connected Devices",
+      "residents": "Residents",
+      "events": "Events"
+    },
+    "accessLevels": {
+      "devices": {
+        "title": "Devices",
+        "subtitle": "Here you can see list of devices with current access level access. You can add or remove devices from the group."
+      },
+      "users": {
+        "title": "Users",
+        "subtitle": "Here you can see list of users with current access level access. You can add or remove users from the group."
+      },
+      "timeSchedules": {
+        "title": "Time Schedules",
+        "subtitle": "Here you can setup access level access configuration. When configured, certain devices will restrict access in the corresponding days and hours."
+      },
+      "exceptions": {
+        "title": "Exceptions",
+        "subtitle": "Here you can setup configuration for exceptions when access level time schedule rules will not apply. Example of an exception can be allowing access on specific data or date range."
+      }
+    }
+  },
+  "buttons": {
+    "label": {
+      "attachToDevices": "Attach to devices"
+    },
+    "attachDevice": "Attach device",
+    "attachUser": "Attach user",
+    "attachAccessKey": "Attach access key",
+    "addDevice": "Add device",
+    "addUser": "Add user",
+    "addException": "Add Exception",
+    "deleteException": "Delete Exception",
+    "newUser": "New User",
+    "newApartment": "New Apartment",
+    "newCompany": "New Company",
+    "createNew": "Create New"
+  },
+  "infoSection": {
+    "emailFormat": "Login info message",
+    "passwordFormat": "Password must have at least 8 characters, 1 lowercase, 1 uppercase, 1 number, and 1 special character.",
+    "passwordsMustMatch": "Both passwords must match",
+    "adminPermissions": "Please note. This is a highly critical permission. Administrators with this permission can add or edit roles to include any permissions in the list, regardless of whether they have that permission or not."
+  },
+  "notFound": {
+    "devices": {
+      "label": "No devices to display",
+      "description": "Devices have not been created for the current site. Generate devices by clicking on the button below.",
+      "attachDeviceDescription": "Devices are not found or created yet for current site."
+    },
+    "devicesNotAdded": {
+      "label": "No devices added",
+      "description": "Select devices to add them to selected list. If no devices are selected, only location will be created."
+    },
+    "devicesNotAttached": {
+      "label": "Devices not attached",
+      "description": "Devices are not yet assigned to current access level. In order to add device to current access level click on a button below."
+    },
+    "keys": {
+      "label": "No keys to display",
+      "description": "Keys are not created yet. Create keys by filling form to the right or by importing them from external source through button below.",
+      "attachKeyDescription": "Keys are not found or created yet for current user."
+    },
+    "accessLevel": {
+      "label": "Level not selected",
+      "description": "Access level must be selected in order to display it's details. If you don't have any access levels yet, create them by clicking on button below."
+    },
+    "exceptions": {
+      "label": "You have not added any exceptions yet",
+      "description": "Exceptions have not been configured yet. To permit access on specific dates, add an exception by clicking on a button below."
+    },
+    "admins": {
+      "label": "No admins to display",
+      "description": "Users have not been invited yet. Invite users by clicking on the button below."
+    },
+    "users": {
+      "label": "No users to display",
+      "description": "Users are not created yet for current site. Create users by clicking on a below button.",
+      "attachUserDescription": "Users are not found or created yet for current site."
+    },
+    "connectedUsers": {
+      "label": "No users to display",
+      "description": "No users connected to this device. Connect users to this device by by clicking on the button below."
+    },
+    "usersNotAttached": {
+      "label": "Users not attached",
+      "description": "Users are not yet assigned to current access level. In order to add user to current access level click on a button below."
+    },
+    "events": {
+      "label": "No events to display",
+      "description": "User didn't performed any action yet"
+    },
+    "actions": {
+      "label": "No actions performed yet",
+      "description": "Here you will see list of actions performed at the site. You can expect events like doors open, door closed, etc."
+    },
+    "statistics": {
+      "label": "Statistics is not available yet",
+      "description": "Once panel is being used more frequently statistics will appear here. Statistics will show number of visits through time with possibility to filter."
+    },
+    "roles": {
+      "label": "Role not selected",
+      "description": "Role must be selected in order to display it's details. If you don't have any role yet, create them by clicking on button below."
+    }
+  },
+  "common": {
+    "search": "Search...",
+    "filter": "Filter",
+    "loading": "Loading",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "noRecords": "No records to display",
+    "page": "page",
+    "approve": "Approve",
+    "reject": "Reject",
+    "activate": "Activate",
+    "reboot": "Reboot",
+    "delete": "Delete",
+    "remove": "Remove",
+    "save": "Save",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "generalInformation": "General information",
+    "import": "Import",
+    "enterValue": "Enter value",
+    "user": "user",
+    "device": "device",
+    "report": "Report",
+    "details": "Details",
+    "attachDevice": "Attach device",
+    "resendInvitation": "Resend Invitation",
+    "apply": "Apply",
+    "clearAll": "Clear All",
+    "seeAll": "See All",
+    "configure": "Configure",
+    "addPhoto": "Add a photo",
+    "syncToDevice": "Sync to Device",
+    "timePicker": {
+      "title": "Time",
+      "trigger": "Add Time"
+    },
+    "accessKeyType": {
+      "card": "Card",
+      "tag": "Tag",
+      "other": "Other"
+    },
+    "deviceType": {
+      "visitorPanel": "Visitor Panel",
+      "door": "Door"
+    },
+    "permissionType": {
+      "auth": "Auth",
+      "user": "User",
+      "site": "Site",
+      "event": "Events",
+      "device": "Device",
+      "deviceEvents": "Device Operations",
+      "accessKey": "Access Keys",
+      "accessLevel": "Access Groups",
+      "call": "Call",
+      "adminAndRole": "Administrators and Roles"
+    },
+    "lockStatus": {
+      "open": "Open",
+      "close": "Close"
+    },
+    "userStatus": {
+      "suspended": "Suspended"
+    },
+    "userType": {
+      "resident": "Resident",
+      "apartment": "Apartment",
+      "company": "Company"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending",
+      "blocked": "Blocked",
+      "error": "Error",
+      "registrationInReview": "Registration In Review"
+    }
+  }
+}

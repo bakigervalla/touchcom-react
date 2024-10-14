@@ -1,0 +1,1059 @@
+{
+  "routes": {
+    "login": "Logg på",
+    "passwordRecoveryRequest": "Forespørsel om passordgjenoppretting",
+    "passwordRecoveryVerification": "Bekreftelse av passordgjenoppretting",
+    "invitationVerification": "Invitasjonsbekreftelse",
+    "dashboard": "Hjem",
+    "sites": "Nettsteder",
+    "users": "Brukere",
+    "userDetails": "Brukerdetaljer",
+    "devices": "Enheter",
+    "deviceDetails": "Enhetsdetaljer",
+    "accessKeys": "Tilgangsnøkler",
+    "accessLevels": "Tilgangsnivåer",
+    "settings": "Innstillinger",
+    "roles": "Roller",
+    "administrators": "Administratorer"
+  },
+  "page": {
+    "dashboard": {
+      "title": "Hjem",
+      "header": "Velkommen, {{name}}!",
+      "visitsStatistics": "Besøksstatistikk",
+      "lastActions": "Siste handlinger",
+      "devices": "Enheter",
+      "filters": {
+        "today": "I dag",
+        "thisWeek": "Denne uken",
+        "thisMonth": "Denne måneden",
+        "wholeYear": "Hele året"
+      }
+    },
+    "sites": {
+      "title": "Velg nettstedet du vil jobbe med",
+      "subtitle": "Du kan endre nettstedet når som helst i øvre venstre hjørne.",
+      "newSiteButton": "Legg til ny",
+      "newSiteTitle": "Legg til nettsted",
+      "siteDetailsTitle": "Informasjon om nettstedet",
+      "siteDetailsButton": "Detaljer",
+      "siteSelectButton": "Velg",
+      "filters": {
+        "allSites": "Alle nettsteder",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      }
+    },
+    "site": {
+      "title": "Informasjon om nettstedet"
+    },
+    "users": {
+      "title": "Brukere",
+      "accessKeys": "Tilgangsnøkler",
+      "lastActions": "Siste handlinger",
+      "addKey": "Legg til nøkkel",
+      "validTo": "Gyldig til",
+      "generateAccessKey": "Generer tilgangsnøkkel"
+    },
+    "devices": {
+      "title": "Få tilgang til enheter",
+      "newDevice": "Opprett enhet",
+      "filters": {
+        "allDevices": "Alle enheter",
+        "visitorPanels": "Besøkspaneler",
+        "doors": "Dører"
+      }
+    },
+    "accessKeys": {
+      "title": "Tilgangsnøkler",
+      "accessKeyDetailsTitle": "Tilgangsnøkkeldetaljer",
+      "createAccessKey": "Opprett ny nøkkel",
+      "savedKeys": "Lagrede nøkler",
+      "attachKey": "Vil du legge ved nøkkelen til brukeren umiddelbart?",
+      "saveKey": "Lagre nøkkel",
+      "attachKeyOption": {
+        "later": "Senere",
+        "attachNow": "Legg ved nå"
+      },
+      "filters": {
+        "allKeys": "Alle nøkler",
+        "active": "Aktive nøkler",
+        "inactive": "Inaktive nøkler"
+      }
+    },
+    "accessLevels": {
+      "title": "Tilgangsnivåer",
+      "savedAccessLevels": "Lagrede tilgangsnivåer",
+      "newAccessLevel": "Nytt tilgangsnivå",
+      "description": "<0>{{devices}} {{deviceText}}</0> koblet til gjeldende tilgangsnivå har tilgang for <11>{{users}} {{userText}}</11> mellom <14>07:00</14> og <16>16:00</16> på <16>Tirsdag</16> og <16>Fredag</16> bortsett fra <16>23.12.2023 - 02.01.2024</16>. Du kan se mer informasjon om unntak i kategorien <16>Unntak</16>.",
+      "timeSchedule": {
+        "applyEveryDay": "Søk hver dag",
+        "monday": "Mandag",
+        "tuesday": "Tirsdag",
+        "wednesday": "Onsdag",
+        "thursday": "Torsdag",
+        "friday": "Fredag",
+        "saturday": "Lørdag",
+        "sunday": "Søndag",
+        "selectedTime": "Fra <2>{{from}}</2> Til <6>{{to}}</6>",
+        "selectedTimeOnDay": "Fra <2>{{from}}</2> Til <6>{{to}}</6> På <10>{{on}}</10>"
+      }
+    },
+    "settings": {
+      "title": "Innstillinger"
+    },
+    "roles": {
+      "title": "Roller",
+      "savedRoles": "Lagrede roller",
+      "newRole": "Ny rolle",
+      "roleNamePlaceholder": "Rollenavn",
+      "description": "<0>{{roleName}}</0> rollen har <2>{{rolePermissionNames}}</2> tillatelser. Avhengig av konfigurerte tillatelser vil denne rollen kunne utføre visse typer handlinger. ",
+      "permissions": "Tillatelser",
+      "permissionsDescription": "Med tillatelser er det mulig å gi brukeren mulighet til å utføre spesifikke handlinger eller gi tilgang til spesifikke kilder. Når konfigurerte tillatelser kan endres/fjernes når som helst gjennom denne delen.",
+      "permissionOptions": {
+        "viewOnly": "Bare visning",
+        "manage": "Administrer",
+        "noAccess": "Ingen tilgang"
+      }
+    },
+    "administrators": {
+      "title": "Administratorer",
+      "inviteAdmin": "Inviter admin",
+      "rolesInfo": {
+        "title": "Rolleinformasjon",
+        "description": "Roller lar bruker utføre spesifikke operasjoner i Touchcom-plattformen. Roller administreres av Super Admin og det er mulig å legge ved visse tillatelser for å gi tilgang til spesifikke operasjoner.",
+        "linkText": "Du kan administrere roller på ",
+        "superAdmin": {
+          "title": "Super Admin",
+          "description": "Brukere med rollen <1>Superadmin</1> kan utføre alle handlinger i Touchcom-plattformen, inkludert oppføring og endring av dataene. Superadministratorer har også tilgang til alle nettsteder og data."
+        },
+        "siteAdmin": {
+          "title": "Nettstedsadministrator",
+          "description": "<0>Nettstedadministrator</0>-rollen gjør det mulig for nettstedsadministratorer å administrere nettstedet deres, som inkluderer enheter og brukeradministrasjon på et bestemt nettsted. Nettstedsadministrator kan bestemme hvordan nettstedet hans skal dannes."
+        },
+        "standardUser": {
+          "title": "Standardbruker",
+          "description": "<0>Standard bruker</0>-rollen gir grunnleggende brukertillatelser til å åpne dører og logge på via mobilappen. Brukere med denne tillatelsen har ikke tilgang til Admin Web."
+        },
+        "installer": {
+          "title": "Enhetsoppsett",
+          "description": "Brukere med rollen <1>Enhetsoppsett</1> har mulighet til å få tilgang til enheten gjennom pålogging og konfigurere den for produksjonsbruk."
+        }
+      }
+    }
+  },
+  "layouts": {
+    "auth": {
+      "privacyPolicy": "Personvernregler"
+    }
+  },
+  "navigation": {
+    "items": {
+      "dashboard": "Hjem",
+      "siteManagement": {
+        "title": "Webområdeadministrasjon",
+        "subItems": {
+          "accessDevices": "Få tilgang til enheter",
+          "users": "Brukere"
+        }
+      },
+      "accessControl": {
+        "title": "Adgangskontroll",
+        "subItems": {
+          "accessKeys": "Tilgangsnøkler",
+          "accessLevels": "Tilgangsnivåer",
+          "events": "Arrangementer"
+        }
+      },
+      "settings": {
+        "title": "Innstillinger",
+        "subItems": {
+          "administrators": "Administratorer",
+          "roles": "Roller"
+        }
+      }
+    }
+  },
+  "userMenu": {
+    "profileSettings": {
+      "title": "Profilinnstillinger",
+      "changePassword": "Endre Passord"
+    },
+    "changeLanguage": {
+      "title": "Endre språk",
+      "selectLanguageMenu": {
+        "title": "Velg språk"
+      }
+    },
+    "signOut": {
+      "title": "Logg ut"
+    }
+  },
+  "siteMenu": {
+    "viewAll": {
+      "title": "Vis alle nettsteder"
+    },
+    "siteDetails": {
+      "title": "Nettsteddetaljer"
+    },
+    "addSite": {
+      "title": "Legg til nettsted"
+    }
+  },
+  "forms": {
+    "validation": {
+      "invalidValue": "Ugyldig verdi",
+      "noOptions": "Ingen alternativer"
+    },
+    "placeholders": {
+      "promptValue": "Skriv inn verdi",
+      "promptSelectValue": "Velg et alternativ"
+    },
+    "login": {
+      "data": {
+        "title": "Velkommen tilbake!",
+        "label": {
+          "email": "E-post",
+          "password": "Passord"
+        },
+        "placeholder": {
+          "email": "Skriv inn din e-post",
+          "password": "Skriv inn passordet ditt"
+        },
+        "submitButton": "Logg Inn",
+        "forgotPassword": "Glemt passordet?"
+      },
+      "validation": {
+        "email": "E-posten er ikke gyldig",
+        "required": {
+          "email": "E-post er påkrevd",
+          "password": "Passord er påkrevd"
+        },
+        "min": {
+          "password": "Passordet er for kort (min. {{min}})"
+        },
+        "max": {
+          "password": "Passordet er for langt (maks. {{max}})"
+        }
+      }
+    },
+    "passwordRecovery": {
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "signInLink": "Logg på",
+      "request": {
+        "data": {
+          "title": "Gjenopprett passord",
+          "subtitle": "Skriv inn e-postadressen som er koblet til kontoen din",
+          "label": {
+            "email": "E-post"
+          },
+          "placeholder": {
+            "email": "Skriv inn e-postadressen din"
+          },
+          "submitButton": "Gjenopprett passord"
+        },
+        "validation": {
+          "email": "E-posten er ikke gyldig",
+          "required": {
+            "email": "E-post kreves"
+          }
+        }
+      },
+      "verification": {
+        "data": {
+          "title": "Bekreftelse av passordgjenoppretting",
+          "label": {
+            "passwordResetToken": "Token",
+            "password": "Passord"
+          },
+          "placeholder": {
+            "passwordResetToken": "Skriv inn symbolet for tilbakestilling av passord",
+            "password": "Skriv inn passordet ditt"
+          },
+          "submitButton": "Gjenopprett passord"
+        },
+        "validation": {
+          "required": {
+            "passwordResetToken": "Tilbakestilling av passord kreves",
+            "password": "Passord kreves"
+          },
+          "min": {
+            "password": "Passordet er for kort (min. {{min}})"
+          },
+          "max": {
+            "password": "Passordet er for langt (maks. {{max}})"
+          }
+        }
+      }
+    },
+    "invitation": {
+      "alreadyHaveAccount": "Har du allerede en konto?",
+      "signInLink": "Logg på",
+      "verification": {
+        "data": {
+          "title": "Bekreftelse av invitasjon",
+          "label": {
+            "invitationToken": "Token",
+            "password": "Passord"
+          },
+          "plassholder": {
+            "invitationToken": "Skriv inn invitasjonstoken",
+            "password": "Skriv inn passordet ditt"
+          },
+          "submitButton": "Godta invitasjon"
+        },
+        "validation": {
+          "required": {
+            "invitationToken": "Invitasjonstoken er nødvendig",
+            "password": "Passord kreves"
+          },
+          "min": {
+            "password": "Passordet er for kort (min. {{min}})"
+          },
+          "max": {
+            "password": "Passordet er for langt (maks. {{max}})"
+          }
+        }
+      }
+    },
+    "device": {
+      "data": {
+        "label": {
+          "name": "Navn",
+          "deviceType": "Type enhet",
+          "version": "Panelversjon",
+          "street": "Gate",
+          "serialNumber": "Serienummer",
+          "number": "Antall",
+          "floor": "Gulv",
+          "site": "Site",
+          "status": "Status",
+          "email": "E-post",
+          "currentPassword": "Nåværende passord",
+          "password": "Passord",
+          "confirmPassword": "Bekreft passord",
+          "connectedPerson": "Tilkoblet person"
+        },
+        "placeholder": {
+          "name": "Skriv inn enhetsnavn",
+          "version": "Skriv inn versjon",
+          "street": "Legg til gate",
+          "number": "Skriv inn gatenummer",
+          "floor": "Velg gulvnummer",
+          "site": "Velg nettsted",
+          "email": "Epostadresse",
+          "currentPassword": "Nåværende passord",
+          "password": "Passord",
+          "confirmPassword": "Bekreft passord"
+        },
+        "description": {
+          "site": "Velg panelplassering"
+        },
+        "configuration": {
+          "title": "Panel configuration",
+          "label": {
+            "heartbeatInterval": "Hjerteslagintervall",
+            "mainScreenDelay": "Forsinkelse på hovedskjerm",
+            "waitBranchLevel": "Vent grennivå",
+            "activeBranchLevel": "Aktivt grennivå",
+            "lockStatus": "Låsstatus",
+            "volumeLevel": "Volumnivå",
+            "isHorizontal": "Horisontal visning",
+            "deviceRotation": "Enhetsrotasjon",
+            "cameraRotation": "Kamererarotasjon",
+            "scaling": "Skalering",
+            "closeDoorTime": "Lukke døren",
+            "callTimeout": "Tidsavbrudd for samtale",
+            "height": "Høyde",
+            "width": "Bredde",
+            "aspectRatioX": "X sideforhold",
+            "aspectRatioY": "Y sideforhold",
+            "adbPort": "ADB-port",
+            "isDarkTheme": "Mørkt tema",
+            "darkThemeStart": "Mørkt tema starter kl",
+            "darkThemeEnd": "Mørkt tema slutter kl",
+            "panelType": "Type panel"
+          },
+          "placeholder": {
+            "heartbeatInterval": "Velg hjerteslagsintervall",
+            "mainScreenDelay": "Velg hovedskjermforsinkelse",
+            "waitBranchLevel": "Velg Wait Branch Level",
+            "activeBranchLevel": "Velg aktivt filialnivå",
+            "volumeLevel": "Velg volumnivå",
+            "panelType": "Velg av type panel",
+            "deviceRotation": "Velg enhetsrotasjon",
+            "cameraRotation": "Velg kamerarotasjon",
+            "height": "Gå inn i høyden",
+            "width": "Angi bredden"
+          }
+        },
+        "credentials": {
+          "title": "Panellegitimasjon",
+          "label": {
+            "email": "E-post",
+            "password": "Passord"
+          },
+          "placeholder": {
+            "email": "Skriv inn e-postadressen din",
+            "password": "Oppgi passord"
+          }
+        },
+        "deviceAccess": {
+          "title": "Change password"
+        },
+        "submitButton": "Skape",
+        "saveButton": "Lagre"
+      },
+      "validation": {
+        "email": "E-posten er ikke gyldig",
+        "required": {
+          "name": "Navnet er påkrevd",
+          "version": "Versjon er påkrevd",
+          "street": "Gaten er påkrevd",
+          "number": "Gatenummer kreves",
+          "floor": "Gulvet er påkrevd",
+          "email": "E-post kreves",
+          "currentPassword": "Nåværende passord kreves",
+          "password": "Passord er påkrevd",
+          "confirmPassword": "Bekreft passord er påkrevd",
+          "lockStatus": "Låsestatus er påkrevd",
+          "panelType": "Paneldype er påkrevd",
+          "deviceRotation": "Enhetsrotasjon er nødvendig",
+          "cameraRotation": "Kamerarotasjon er påkrevd",
+          "heartbeatInterval": "Hjerteslagsintervall er påkrevd",
+          "mainScreenDelay": "Hovedskjermforsinkelse er påkrevd",
+          "waitBranchLevel": "Vent grennivå er påkrevd",
+          "activeBranchLevel": "Aktivt grennivå er påkrevd"
+        },
+        "match": {
+          "confirmPassword": "Passordene må samsvare"
+        },
+        "min": {
+          "name": "Navn er for kort (min. {{min}})"
+        },
+        "max": {
+          "name": "Navn er for langt (max. {{max}})"
+        }
+      }
+    },
+    "site": {
+      "data": {
+        "title": "Områdedetaljer",
+        "label": {
+          "name": "Navn",
+          "description": "Beskrivelse",
+          "country": "Land",
+          "city": "By",
+          "postalCode": "Postnummer",
+          "street": "Gate",
+          "number": "Antall",
+          "floor": "Gulv",
+          "status": "Status"
+        },
+        "placeholder": {
+          "name": "Skriv inn nettstedsnavn",
+          "description": "Legg til nettstedsbeskrivelse",
+          "country": "Velg et land",
+          "city": "Skriv inn bynavn",
+          "postalCode": "Skriv inn postnummer",
+          "street": "Gå inn i gaten",
+          "number": "Skriv inn gatenummer",
+          "floor": "Gå inn på stedets etasje"
+        },
+        "notFound": {
+          "country": "Ingenting funnet"
+        },
+        "noOptions": "Empty list"
+      },
+      "validation": {
+        "required": {
+          "name": "Navn er påkrevd",
+          "country": "Angi er påkrevd",
+          "city": "Skriv er påkrevd",
+          "postalCode": "Skriv er påkrevd",
+          "street": "Gå er påkrevd",
+          "number": "Gatenummer er påkrevd",
+          "floor": "Gulv er påkrevd"
+        }
+      }
+    },
+    "user": {
+      "data": {
+        "label": {
+          "firstName": "Fornavn",
+          "lastName": "Etternavn",
+          "email": "E-post",
+          "phone": "Telefon",
+          "address": "Adresse",
+          "role": "Rolle",
+          "imageUrl": "Bilde",
+          "apartment": "Leilighet",
+          "company": "Selskap",
+          "status": "Status",
+          "name": "Navn",
+          "type": "Brukertype",
+          "userType": "Velg type bruker",
+          "number": "Nummer",
+          "floor": "Etasje",
+          "companyLogo": "Bedriftslogo",
+          "password": "Passord",
+          "confirmPassword": "Bekreft passord",
+          "accessLevel": "Tilgangsnivå",
+          "accessKey": {
+            "name": "Navn på tilgangsnøkkel",
+            "type": "Nøkkeltype",
+            "status": "Status",
+            "number": "Nøkkelnummer",
+            "id": "Nøkkel-ID",
+            "validFrom": "Gyldig fra",
+            "validTo": "Gyldig til",
+            "pin": "Oppsett PIN-kode",
+            "pinEntryTime": "PIN-kode inngangstid"
+          }
+        },
+        "placeholder": {
+          "firstName": "Skriv inn fornavn",
+          "lastName": "Skriv inn etternavn",
+          "address": "Skriv inn adresse",
+          "email": "Skriv inn bosatt e-post",
+          "password": "Skriv inn passord",
+          "confirmPassword": "Skriv inn samme passord på nytt",
+          "verificationCode": "Skriv inn bekreftelseskode",
+          "verificationCodeExpiration": "Skriv inn utløpsdato for bekreftelseskode",
+          "otpRequestCooldownExpiration": "Skriv inn nedkjølingsutløp",
+          "phone": "Skriv inn telefon",
+          "status": "Velg bosattstatus",
+          "role": "Velg innbyggerrolle",
+          "imageUrl": "Velg innbyggerbilde",
+          "name": "Skriv inn navn",
+          "number": "Skriv inn nummer",
+          "floor": "Gå inn i etasjen",
+          "companyLogo": "Velg firmalogo",
+          "accessLevel": "Velg tilgangsnivå",
+          "accessKey": {
+            "name": "Skriv inn tilgangsnøkkelnavn",
+            "status": "Status",
+            "number": "Skriv inn nøkkelnummer",
+            "id": "Skriv inn nøkkel-ID",
+            "validFrom": "Angi gyldig fra dato",
+            "validTo": "Angi gyldig til dato",
+            "pin": "Skriv inn PIN-kode"
+          }
+        },
+        "validation": {
+          "email": "E-posten er ikke gyldig",
+          "phone": "Telefonen er ikke gyldig",
+          "required": {
+            "name": "Navn kreves",
+            "firstName": "Fornavn kreves",
+            "lastName": "Etternavn kreves",
+            "number": "Nummer er påkrevd",
+            "floor": "Etasje kreves",
+            "email": "E-post kreves",
+            "phone": "Telefon kreves",
+            "accessKey": {
+              "id": "Nøkkel-ID kreves",
+              "name": "Nøkkelnavn kreves",
+              "pin": "PIN-kode kreves",
+              "number": "Nøkkelnummer kreves"
+            }
+          },
+          "min": {
+            "phone": "Telefonnummeret er for kort (min. {{min}})"
+          },
+          "max": {
+            "phone": "Telefonnummeret er for langt (maks. {{max}})"
+          },
+          "matches": {
+            "phone": "Ugyldig telefonnummerformat. Det skal starte med en 3-sifret landskode og kun inneholde tall. Plusstegnet kan bare brukes i begynnelsen."
+          }
+        }
+      }
+    },
+    "accessKey": {
+      "data": {
+        "label": {
+          "name": "Navn på tilgangsnøkkel",
+          "tag": "Nøkkel-ID",
+          "number": "Nøkkelnummer",
+          "keyType": "Type nøkkel",
+          "status": "Status",
+          "belongsTo": "Tilhører",
+          "connectedDevice": "Tilkoblet enhet",
+          "valid": "Gyldig",
+          "pin": "PIN-kode",
+          "pinEntryTime": "PIN-kode inngangstid"
+        },
+        "placeholder": {
+          "name": "Skriv inn tilgangsnøkkelnavn",
+          "tag": "Skriv inn nøkkel-ID",
+          "number": "Skriv inn tilgangsnøkkelnummer"
+        },
+        "validation": {
+          "required": {
+            "name": "Nøkkelnavn kreves",
+            "tag": "Nøkkel-ID kreves",
+            "number": "Nøkkelnummer kreves"
+          }
+        }
+      }
+    },
+    "accessLevel": {
+      "data": {
+        "placeholders": {
+          "name": "Skriv inn tilgangsnivånavn"
+        }
+      }
+    },
+    "exception": {
+      "data": {
+        "label": {
+          "name": "Navn",
+          "status": "Lås status for tilgangsgruppe",
+          "periodOneDay": "En dag",
+          "period": "Periode",
+          "timeWholeDay": "Hele dagen",
+          "timeInterval": "Tidsintervall",
+          "saveForNextYear": "Lagre til neste år"
+        },
+        "placeholder": {
+          "name": "Skriv inn unntaksnavn",
+          "periodStart": "Fra",
+          "periodEnd": "Til",
+          "timeIntervalStart": "Fra",
+          "timeIntervalEnd": "Til"
+        }
+      },
+      "validation": {
+        "required": {
+          "name": "Unntaksnavn kreves"
+        }
+      }
+    },
+    "timeSchedule": {
+      "validation": {
+        "required": {
+          "timeFrom": "Felt kreves",
+          "timeTo": "Felt kreves"
+        },
+        "moreThan": {
+          "timeTo": "Må være større enn tiden fra"
+        }
+      }
+    },
+    "administrators": {
+      "adminInvite": {
+        "data": {
+          "label": {
+            "firstName": "Fornavn",
+            "lastName": "Etternavn",
+            "email": "E-post",
+            "role": "Rolle",
+            "info": "Her kan du bare velge mellom 'Site Admin' og 'Super Admin' roller."
+          },
+          "placeholders": {
+            "firstName": "Skriv inn brukerens fornavn",
+            "lastName": "Skriv inn brukerens etternavn",
+            "email": "Skriv inn brukerens e-postadresse",
+            "role": "Velg en rolle"
+          }
+        },
+        "validation": {
+          "required": {
+            "firstName": "Fornavn kreves",
+            "lastName": "Etternavn kreves",
+            "email": "E-post kreves",
+            "role": "Rolle er påkrevd"
+          }
+        }
+      }
+    },
+    "roles": {
+      "data": {
+        "placeholders": {
+          "name": "Skriv inn rollenavn"
+        }
+      }
+    }
+  },
+  "tables": {
+    "accessDevices": {
+      "cells": {
+        "name": "Navn",
+        "deviceType": "Type enhet",
+        "address": "Adresse",
+        "lockStatus": "Låsestatus",
+        "status": "Status",
+        "connectedUsers": "Tilkoblede brukere",
+        "version": "Versjon",
+        "createdAt": "Opprettet på"
+      }
+    },
+    "accessKeys": {
+      "cells": {
+        "name": "Navn på tilgangsnøkkel",
+        "belongsTo": "Tilhører",
+        "status": "Status"
+      }
+    },
+    "accessLevelExceptions": {
+      "cells": {
+        "name": "Navn på tilgangsnøkkel",
+        "status": "Status",
+        "date": "Dato"
+      }
+    },
+    "connectedUsers": {
+      "cells": {
+        "user": "Bruker",
+        "accessLevel": "Tilgangsnivå",
+        "status": "Status",
+        "visible": "Synlig"
+      }
+    },
+    "connectedDevices": {
+      "cells": {
+        "name": "Navn",
+        "deviceType": "Type enhet",
+        "address": "Adresse",
+        "lockStatus": "Låsestatus",
+        "status": "Status",
+        "isUserVisible": "Bruker er synlig"
+      }
+    },
+    "users": {
+      "cells": {
+        "name": "Navn",
+        "role": "Rolle",
+        "status": "Status",
+        "apartment": "Leilighet",
+        "company": "Selskap",
+        "floor": "Etasje",
+        "accessKeys": "Tilgangsnøkler",
+        "phone": "Telefon",
+        "email": "E-post",
+        "devices": "Enheter",
+        "accessLevels": "Tilgangsnivåer"
+      }
+    },
+    "pagination": {
+      "rowsPerPage": "Rader per side:",
+      "pageInfo": "Viser <1>{{count}}</1> av <4>{{limit}}</4> resultater"
+    }
+  },
+  "dialogs": {
+    "devices": {
+      "reject": {
+        "confirmationTitle": "Avvis enhet",
+        "confirmationText": "Vil du virkelig avvise enhetsregistrering?"
+      },
+      "approve": {
+        "confirmationTitle": "Godkjenn enhet",
+        "confirmationText": "Vil du virkelig godkjenne enhetsregistrering?"
+      },
+      "activate": {
+        "confirmationTitle": "Aktiver enhet",
+        "confirmationText": "Vil du virkelig aktivere denne enheten?"
+      },
+      "reboot": {
+        "confirmationTitle": "Start enheten på nytt",
+        "confirmationText": "Vil du virkelig starte denne enheten på nytt?"
+      },
+      "delete": {
+        "confirmationTitle": "Slett enhet",
+        "confirmationText": "Vil du virkelig slette denne enheten?"
+      }
+    },
+    "sites": {
+      "delete": {
+        "confirmationTitle": "Barn Sitte",
+        "confirmationText": "Vil du virkelig slette dette nettstedet?",
+        "deleteButton": "Barn Sitte"
+      }
+    },
+    "accessKeys": {
+      "pinCodeEntryTime": {
+        "title": "Pinkodeinngangstid"
+      },
+      "delete": {
+        "confirmationTitle": "Slett tilgangsnøkkel",
+        "confirmationText": "Vil du virkelig slette denne tilgangsnøkkelen?"
+      }
+    },
+    "accessLevels": {
+      "newException": {
+        "title": "Legg til unntak"
+      },
+      "exceptionDetails": {
+        "title": "Unntaksdetaljer"
+      },
+      "delete": {
+        "confirmationTitle": "Slett tilgangsnivå",
+        "confirmationText": "Vil du virkelig slette dette tilgangsnivået?"
+      },
+      "deleteException": {
+        "confirmationTitle": "Slett unntak fra tilgangsnivå",
+        "confirmationText": "Vil du virkelig slette dette tilgangsnivåunntaket?"
+      }
+    },
+    "roles": {
+      "delete": {
+        "confirmationTitle": "Slett rolle",
+        "confirmationText": "Vil du virkelig slette denne rollen?"
+      }
+    },
+    "administrators": {
+      "delete": {
+        "confirmationTitle": "Slett admin",
+        "confirmationText": "Vil du virkelig slette denne admin?"
+      }
+    },
+    "users": {
+      "attachAccessKey": {
+        "title": "Legg ved tilgangsnøkkel"
+      },
+      "delete": {
+        "confirmationTitle": "Slett bruker",
+        "confirmationText": "Vil du virkelig slette denne brukeren?"
+      }
+    }
+  },
+  "wizard": {
+    "previous": "Tilbake",
+    "next": "Neste",
+    "submit": "Sende inn",
+    "users": {
+      "title": "Ny bruker",
+      "general": {
+        "title": "Generell informasjon"
+      },
+      "type": {
+        "title": "Type"
+      },
+      "accessControl": {
+        "title": "Tilgangskontroll",
+        "subtitle": "Legg til brukeren et spesifikt tilgangsnivå og oppsetttilgangsnøkkel som vil bli brukt for å få tilgang til innganger ved å fylle ut skjemaet nedenfor."
+      },
+      "credentials": {
+        "title": "Påloggingsinformasjon",
+        "subtitle": "Oppsett passord som vil bli brukt for å bli autentisert på panelet. Dette trinnet kan hoppes over hvis brukeren ikke skulle ha tilgang til panelet."
+      },
+      "review": {
+        "stepTitle": "Gjennomgå",
+        "title": "Gjennomgå innlagt informasjon"
+      }
+    },
+    "devices": {
+      "title": "Ny enhet",
+      "general": {
+        "title": "Generell informasjon"
+      },
+      "configuration": {
+        "title": "Konfigurasjon"
+      },
+      "credentials": {
+        "title": "Enhetstilgang",
+        "subtitle": "Sett opp passord som kan brukes til å logge på enheten"
+      },
+      "review": {
+        "title": "Gjennomgang angitt informasjon"
+      }
+    }
+  },
+  "tabs": {
+    "devices": {
+      "configuration": "Konfigurasjon",
+      "connectedUsers": "Tilkoblede brukere",
+      "deviceAccess": "Enhetstilgang",
+      "events": "Hendelser"
+    },
+    "users": {
+      "allUsers": "Alle brukere",
+      "apartments": "Leiligheter",
+      "companies": "Bedrifter",
+      "connectedDevices": "Tilkoblede enheter",
+      "residents": "Beboere",
+      "events": "Hendelser"
+    },
+    "accessLevels": {
+      "devices": {
+        "title": "Enheter",
+        "subtitle": "Her kan du se en liste over enheter med gjeldende tilgangsnivå. Du kan legge til eller fjerne enheter fra gruppen."
+      },
+      "users": {
+        "title": "Brukere",
+        "subtitle": "Her kan du se en liste over brukere med gjeldende tilgangsnivå. Du kan legge til eller fjerne brukere fra gruppen."
+      },
+      "timeSchedules": {
+        "title": "Tidsplaner",
+        "subtitle": "Her kan du konfigurere tilgangsnivåtilgangskonfigurasjon. Når den er konfigurert, vil visse enheter begrense tilgangen i de tilsvarende dagene og timene."
+      },
+      "exceptions": {
+        "title": "Unntak",
+        "subtitle": "Her kan du sette opp konfigurasjon for unntak når tidsplanregler for tilgangsnivå ikke vil gjelde. Eksempel på unntak kan være å tillate tilgang til spesifikke data eller datoperiode."
+      }
+    }
+  },
+  "buttons": {
+    "label": {
+      "attachToDevices": "Koble til enheter"
+    },
+    "attachDevice": "Koble til enhet",
+    "attachUser": "Legg ved bruker",
+    "attachAccessKey": "Legg ved tilgangsnøkkel",
+    "addDevice": "Legg til enhet",
+    "addUser": "Legg til bruker",
+    "addException": "Legg til unntak",
+    "deleteException": "Slett unntak",
+    "newUser": "Ny bruker",
+    "newApartment": "Ny leilighet",
+    "newCompany": "Nytt selskap",
+    "createNew": "Opprett Ny"
+  },
+  "infoSection": {
+    "emailFormat": "Melding med innloggingsinfo",
+    "passwordFormat": "Passordet må ha minst 8 tegn, 1 liten bokstav, 1 stor bokstav, 1 tall og 1 spesialtegn.",
+    "passwordsMustMatch": "Begge passordene må samsvare",
+    "adminPermissions": "Vær oppmerksom på. Dette er en svært kritisk tillatelse. Administratorer med denne tillatelsen kan legge til eller redigere roller for å inkludere eventuelle tillatelser på listen, uavhengig av om de har den tillatelsen eller ikke."
+  },
+  "notFound": {
+    "devices": {
+      "label": "Ingen enheter å vise",
+      "description": "Enheter er ikke opprettet for det gjeldende nettstedet. Generer enheter ved å klikke på knappen nedenfor.",
+      "attachDeviceDescription": "Enheter er ikke funnet eller opprettet ennå for gjeldende nettsted."
+    },
+    "devicesNotAdded": {
+      "label": "Ingen enheter lagt til",
+      "description": "Velg enheter for å legge dem til i valgt liste. Hvis ingen enheter er valgt, vil kun plassering bli opprettet."
+    },
+    "devicesNotAttached": {
+      "label": "Enheter ikke tilkoblet",
+      "description": "Enheter er ennå ikke tilordnet gjeldende tilgangsnivå. Klikk på en knapp nedenfor for å legge til enheten til gjeldende tilgangsnivå."
+    },
+    "keys": {
+      "label": "Ingen taster å vise",
+      "description": "Nøkler er ikke opprettet ennå. Lag nøkler ved å fylle ut skjemaet til høyre eller ved å importere dem fra ekstern kilde via knappen nedenfor.",
+      "attachKeyDescription": "Nøkler er ikke funnet eller opprettet ennå for gjeldende bruker."
+    },
+    "accessLevel": {
+      "label": "Nivå ikke valgt",
+      "description": "Tilgangsnivå må velges for å vise detaljene. Hvis du ikke har noen tilgangsnivåer ennå, oppretter du dem ved å klikke på knappen nedenfor."
+    },
+    "exceptions": {
+      "label": "Du har ikke lagt til noen unntak ennå",
+      "description": "Unntak er ikke konfigurert ennå. For å tillate tilgang på bestemte datoer, legg til et unntak ved å klikke på en knapp nedenfor."
+    },
+    "admins": {
+      "label": "Ingen administratorer å vise",
+      "description": "Brukere er ikke invitert ennå. Inviter brukere ved å klikke på knappen nedenfor."
+    },
+    "users": {
+      "label": "Ingen brukere å vise",
+      "description": "Brukere er ikke opprettet ennå for gjeldende nettsted. Opprett brukere ved å klikke på knappen nedenfor.",
+      "attachUserDescription": "Brukere er ikke funnet eller opprettet ennå for gjeldende nettsted."
+    },
+    "connectedUsers": {
+      "label": "Ingen brukere å vise",
+      "description": "Ingen brukere koblet til denne enheten. Koble brukere til denne enheten ved å klikke på knappen nedenfor."
+    },
+    "usersNotAttached": {
+      "label": "Brukere ikke tilknyttet",
+      "description": "Brukere er ennå ikke tilordnet gjeldende tilgangsnivå. For å legge til bruker til gjeldende tilgangsnivå klikk på en knapp nedenfor."
+    },
+    "events": {
+      "label": "Ingen hendelser å vise",
+      "description": "Brukeren har ikke utført noen handling ennå"
+    },
+    "actions": {
+      "label": "Ingen handlinger utført ennå",
+      "description": "Her vil du se en liste over handlinger utført på nettstedet. Du kan forvente hendelser som dører åpne, dør lukket, etc."
+    },
+    "statistics": {
+      "label": "Statistikk er ikke tilgjengelig ennå",
+      "description": "Når panelet blir brukt oftere vil statistikk vises her. Statistikk vil vise antall besøk gjennom tiden med mulighet for filtrering."
+    },
+    "roles": {
+      "label": "Rolle ikke valgt",
+      "description": "Rolle må velges for å vise detaljene. Hvis du ikke har noen rolle ennå, oppretter du dem ved å klikke på knappen nedenfor."
+    }
+  },
+  "common": {
+    "search": "Søk...",
+    "filter": "Filter",
+    "loading": "Laster",
+    "cancel": "Avbryt",
+    "submit": "Sende inn",
+    "confirm": "Bekreft",
+    "noRecords": "Ingen poster å vise",
+    "page": "side",
+    "approve": "Godkjenne",
+    "reject": "Avvis",
+    "activate": "Aktiver",
+    "reboot": "Start på nytt",
+    "delete": "Slett",
+    "remove": "Fjern",
+    "save": "Lagre",
+    "createdAt": "Opprettet kl",
+    "updatedAt": "Oppdatert kl",
+    "generalInformation": "Generell informasjon",
+    "import": "Importer",
+    "enterValue": "Skriv inn verdi",
+    "user": "bruker",
+    "device": "enhet",
+    "report": "Rapportere",
+    "details": "Detaljer",
+    "attachDevice": "Koble til enhet",
+    "resendInvitation": "Send invitasjon på nytt",
+    "apply": "Søk",
+    "clearAll": "Slett Alle",
+    "seeAll": "Se Alle",
+    "configure": "Konfigurer",
+    "addPhoto": "Legg til et bilde",
+    "syncToDevice": "Synkroniser til enhet",
+    "timePicker": {
+      "title": "Tid",
+      "trigger": "Legg til tid"
+    },
+    "accessKeyType": {
+      "card": "Kort",
+      "tag": "Tag",
+      "other": "Annet"
+    },
+    "deviceType": {
+      "visitorPanel": "Besøkspanel",
+      "door": "Dør"
+    },
+    "permissionType": {
+      "auth": "Auth",
+      "user": "Bruker",
+      "site": "Site",
+      "event": "Hendelser",
+      "device": "Enhet",
+      "deviceEvents": "Enhetsoperasjoner",
+      "accessKey": "Tilgangsnøkler",
+      "accessLevel": "Tilgang til grupper",
+      "call": "Ring",
+      "adminAndRole": "Administratorer og roller"
+    },
+    "lockStatus": {
+      "open": "Åpne",
+      "close": "Lukk"
+    },
+    "userStatus": {
+      "suspended": "Suspendert"
+    },
+    "userType": {
+      "resident": "Bosatt",
+      "apartment": "Leilighet",
+      "company": "Company"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "pending": "Venter",
+      "blocked": "Blokkert",
+      "error": "Feil",
+      "registrationInReview": "Registrering under vurdering"
+    }
+  }
+}
